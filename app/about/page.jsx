@@ -226,7 +226,7 @@ export default function About() {
 
             <div className="row justify-content-center">
               {countries.map((country, index) => (
-                <div key={index} className="col-lg-2 col-sm-6 col-md-4">
+                <div key={index} className="col-6 col-sm-6 col-md-4 col-lg-2">
                   <div className="ctp-countries-card">
                     <img
                       src={`/assets/img/currency-transfer-provider/countries/${country.img}`}

@@ -56,11 +56,14 @@ export default function FAQAccordion() {
               {faq.question}
             </button>
             <div
-              className={`accordion-collapse collapse ${openIndex === index ? 'show' : ''}`}
+              className="accordion-collapse"
+              role="region"
+              aria-hidden={openIndex === index ? 'false' : 'true'}
+              style={{ display: openIndex === index ? 'block' : 'none' }}
             >
               <div className="accordion-body">
                 {faq.answer.map((para, idx) => (
-                  <p key={idx}>{para}</p>
+                  <p key={idx} style={{ color: '#57647C' }}>{para}</p>
                 ))}
               </div>
             </div>

@@ -94,7 +94,15 @@ export default function PromotionCarousel({ autoplayInterval = 4000 }) {
               </div>
 
               <div style={{ width: 160, textAlign: 'right' }}>
-                <img src="/assets/img/currency-transfer-provider/banner/banner-bg.jpg" alt="promo" style={{ width: 140, height: 80, objectFit: 'cover', borderRadius: 8, boxShadow: '0 6px 18px rgba(0,0,0,0.12)' }} />
+                <video
+                  src="/assets/img/currency-transfer-provider/banner/banner-bg.jpg"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  aria-hidden="true"
+                  style={{ width: 140, height: 80, objectFit: 'cover', borderRadius: 8, boxShadow: '0 6px 18px rgba(0,0,0,0.12)' }}
+                />
               </div>
             </div>
           ))}

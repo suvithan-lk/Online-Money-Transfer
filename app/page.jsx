@@ -183,8 +183,18 @@ export default function Home() {
       <Header />
 
       {/* Start Currency Transfer Provider Banner Area */}
-      <div className="ctp-banner-area jarallax" data-jarallax='{"speed": 0.3}'>
-        <div className="container-fluid">
+      <div className="ctp-banner-area jarallax" data-jarallax='{"speed": 0.3}' style={{ position: 'relative', overflow: 'hidden' }}>
+        <video
+          src="/assets/img/currency-transfer-provider/banner/banner-bg.mp4"
+          poster="/assets/img/currency-transfer-provider/banner/banner-bg.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          aria-hidden="true"
+          style={{ position: 'absolute', left: 0, top: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }}
+        />
+        <div className="container-fluid" style={{ position: 'relative', zIndex: 1 }}>
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-12">
               <div className="ctp-banner-content">
@@ -428,7 +438,7 @@ export default function Home() {
 
             <div className="row justify-content-center">
               {countries.slice(0, visibleCount).map((country, index) => (
-                <div key={index} className="col-lg-2 col-sm-6 col-md-4">
+                <div key={index} className="col-6 col-sm-6 col-md-4 col-lg-2">
                   <div className="ctp-countries-card">
                     <img
                       src={`/assets/img/currency-transfer-provider/countries/${country.img}`}
@@ -696,42 +706,7 @@ export default function Home() {
         </div>
         {/* End App Area */}
 
-        {/* Start Reviews Area */}
-        <div className="ctp-reviews-area pt-100 pb-75">
-          <div className="container">
-            <div className="section-title ctp-title">
-              <h2>Ratings And Reviews</h2>
-            </div>
-
-            <div className="row justify-content-center">
-              {reviews.map((review, index) => (
-                <div key={index} className="col-lg-4 col-md-6">
-                  <div className="ctp-reviews-box">
-                    <ul className="rating">
-                      {[...Array(5)].map((_, i) => (
-                        <li key={i}>
-                          <img
-                            src="/assets/img/currency-transfer-provider/star.svg"
-                            alt="star"
-                          />
-                        </li>
-                      ))}
-                      <li>
-                        <span>Reviews {review.rating}</span>
-                      </li>
-                    </ul>
-                    <h3>{review.title}</h3>
-                    <p>{review.description}</p>
-                    <h4>
-                      {review.author} <span>{review.role}</span>
-                    </h4>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        {/* End Reviews Area */}
+        {/* Reviews section removed per request */}
 
         {/* Start FAQ Area */}
         <div className="ctp-faq-area pb-100">
