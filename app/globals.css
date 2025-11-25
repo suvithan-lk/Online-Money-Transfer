@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo Text Styling */
+.navbar-brand .logo-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .logo-icon {
+  height: 40px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.navbar-brand .logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.navbar-brand .logo-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.navbar-brand .logo-subtitle {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  margin-top: -2px;
+}
+
+.currency-transfer-provider-navbar.is-sticky .navbar-brand .logo-title,
+.currency-transfer-provider-navbar.is-sticky .navbar-brand .logo-subtitle {
+  color: #0e314c;
+}

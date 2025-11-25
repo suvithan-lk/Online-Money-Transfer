@@ -1,0 +1,3118 @@
+$main-font-family: 'Roboto', sans-serif;
+$optional-font-family: 'Raleway', sans-serif;
+$font-size: 15px;
+$main-color: #25b99a;
+$main-gradient-color: linear-gradient(90deg, #25b99a 0%, #66d097 100%);
+$optional-color: #44ce6f;
+$optional-gradient-color: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
+$white-color: #ffffff;
+$black-color: #0e314c;
+$paragraph-color: #6084a4;
+$transition: .5s;
+
+// Theme Dark CSS
+.theme-dark {
+
+    body {
+        background-color: #242435;
+    }
+    a {
+        color: $white-color;
+    
+        &:hover {
+            color: $main-color;
+        }
+    }
+    p {
+        color: $white-color;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: $white-color;
+    }
+    .bg-f7fafd {
+        background-color: #000000;
+    }
+    .bg-f6f4f8 {
+        background-color: #13131d;
+    }
+    .bg-f4fcff {
+        background-color: $black-color;
+    }
+
+    .navbar-area {
+        &.is-sticky {
+            background-color: $black-color !important;
+    
+            .navbar-brand {
+                img {
+                    &:nth-child(1) {
+                        display: block;
+                    }
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+            .luvion-nav {
+                background-color: $black-color;
+                
+                .navbar {
+                    .navbar-nav {
+                        .nav-item {
+                            a {
+                                color: $white-color;
+                                
+                                &:hover, &:focus, &.active {
+                                    color: $main-color;
+                                }
+                            }
+                            &:hover, &.active {
+                                a {
+                                    color: $main-color;
+                                }
+                            }
+                            .dropdown-menu {
+                                li {
+                                    a {
+                                        color: $white-color;
+                                        
+                                        &:hover, &:focus, &.active {
+                                            color: $main-color;
+                                        }
+                                    }
+                                    .dropdown-menu {
+                                        li {
+                                            a {
+                                                color: $white-color;
+                                                
+                                                &:hover, &:focus, &.active {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                            .dropdown-menu {
+                                                li {
+                                                    a {
+                                                        color: $white-color;
+                    
+                                                        &:hover, &:focus, &.active {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                    .dropdown-menu {
+                                                        li {
+                                                            a {
+                                                                color: $white-color;
+                            
+                                                                &:hover, &:focus, &.active {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                            .dropdown-menu {
+                                                                li {
+                                                                    a {
+                                                                        color: $white-color;
+                                    
+                                                                        &:hover, &:focus, &.active {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                    .dropdown-menu {
+                                                                        li {
+                                                                            a {
+                                                                                color: $white-color;
+                                            
+                                                                                &:hover, &:focus, &.active {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                            .dropdown-menu {
+                                                                                li {
+                                                                                    a {
+                                                                                        color: $white-color;
+                                                    
+                                                                                        &:hover, &:focus, &.active {
+                                                                                            color: $main-color;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                            &.active {
+                                                                                a {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    &.active {
+                                                                        a {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            &.active {
+                                                                a {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    &.active {
+                                                        a {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.active {
+                                                a {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.active {
+                                        a {
+                                            color: $main-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .others-options {
+                        .login-btn {
+                            color: $white-color;
+                            
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.navbar-style-two {
+            .navbar-brand {
+                &.white-logo {
+                    display: inline-block;
+                }
+                &.black-logo {
+                    display: none;
+                }
+            }
+            .luvion-nav {
+                .navbar {
+                    .navbar-nav {
+                        .nav-item {
+                            a {
+                                color: $white-color;
+                                
+                                &:hover, &:focus, &.active {
+                                    color: $main-color;
+                                }
+                            }
+                            &:hover, &.active {
+                                a {
+                                    color: $main-color;
+                                }
+                            }
+                            .dropdown-menu {
+                                li {
+                                    a {
+                                        color: $white-color;
+                                        
+                                        &:hover, &:focus, &.active {
+                                            color: $main-color;
+                                        }
+                                    }
+                                    .dropdown-menu {
+                                        li {
+                                            a {
+                                                color: $white-color;
+                                                
+                                                &:hover, &:focus, &.active {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                            .dropdown-menu {
+                                                li {
+                                                    a {
+                                                        color: $white-color;
+                    
+                                                        &:hover, &:focus, &.active {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                    .dropdown-menu {
+                                                        li {
+                                                            a {
+                                                                color: $white-color;
+                            
+                                                                &:hover, &:focus, &.active {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                            .dropdown-menu {
+                                                                li {
+                                                                    a {
+                                                                        color: $white-color;
+                                    
+                                                                        &:hover, &:focus, &.active {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                    .dropdown-menu {
+                                                                        li {
+                                                                            a {
+                                                                                color: $white-color;
+                                            
+                                                                                &:hover, &:focus, &.active {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                            .dropdown-menu {
+                                                                                li {
+                                                                                    a {
+                                                                                        color: $white-color;
+                                                    
+                                                                                        &:hover, &:focus, &.active {
+                                                                                            color: $main-color;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                            &.active {
+                                                                                a {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    &.active {
+                                                                        a {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            &.active {
+                                                                a {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    &.active {
+                                                        a {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.active {
+                                                a {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.active {
+                                        a {
+                                            color: $main-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .others-options {        
+                    .login-btn {
+                        color: $white-color;
+    
+                        i {
+                            color: $white-color;
+                        }
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .luvion-nav {
+        .navbar {
+            .navbar-nav {
+                .nav-item {
+                    a {
+                        color: $white-color;
+
+                        &:hover, &:focus, &.active {
+                            color: $main-color;
+                        }
+                    }
+                    &:hover, &.active {
+                        a {
+                            color: $main-color;
+                        }
+                    }
+                    .dropdown-menu {
+                        background: $black-color;
+                        
+                        li {
+                            a {
+                                color: $white-color;
+                                
+                                &:hover, &:focus, &.active {
+                                    color: $main-color;
+                                }
+                            }
+                            .dropdown-menu {
+                                li {
+                                    a {
+                                        color: $white-color;
+                                        
+                                        &:hover, &:focus, &.active {
+                                            color: $main-color;
+                                        }
+                                    }
+                                    .dropdown-menu {
+                                        li {
+                                            a {
+                                                color: $white-color;
+            
+                                                &:hover, &:focus, &.active {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                            .dropdown-menu {
+                                                li {
+                                                    a {
+                                                        color: $white-color;
+                    
+                                                        &:hover, &:focus, &.active {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                    .dropdown-menu {
+                                                        li {
+                                                            a {
+                                                                color: $white-color;
+                            
+                                                                &:hover, &:focus, &.active {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                            .dropdown-menu {
+                                                                li {
+                                                                    a {
+                                                                        color: $white-color;
+                                    
+                                                                        &:hover, &:focus, &.active {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                    .dropdown-menu {
+                                                                        li {
+                                                                            a {
+                                                                                color: $white-color;
+                                            
+                                                                                &:hover, &:focus, &.active {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    &.active {
+                                                                        a {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            &.active {
+                                                                a {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    &.active {
+                                                        a {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.active {
+                                                a {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.active {
+                                        a {
+                                            color: $main-color;
+                                        }
+                                    }
+                                }
+                            }
+                            &.active {
+                                a {
+                                    color: $main-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .luvion-responsive-menu {
+        .logo {
+            &.white-logo {
+                display: inline-block;
+            }
+            &.black-logo {
+                display: none;
+            }
+        }
+    }
+
+    .overview-box {
+        .overview-content {
+            .content {
+                .services-list {
+                    li {
+                        span {
+                            background-color: #13131d;
+                            color: $white-color;
+                        }
+                    }
+                }
+                .features-list {
+                    li {
+                        span {
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+        .overview-image {
+            .image {
+                .circle-img {
+                    opacity: .15;
+                }
+            }
+        }
+    }
+
+    .featured-boxes-inner {
+        background-color: #13131d;
+    
+        .col-lg-3 {
+            border-right-color: #352e2e;
+        }
+    }
+
+    .comparisons-table {
+        background-color: $black-color;
+        
+        table {
+            tbody {
+                td {
+                    color: $white-color;
+                    border-color: #1d3e57;
+                }
+            }
+        }
+    }
+
+    .single-features-box {
+        background-color: $black-color;
+    }
+
+    .contact-cta-box {
+        border-color: #454557;
+    }
+
+    .feedback-slides {
+        .client-feedback {
+            .single-feedback {
+                background: $black-color;
+                
+                &::before {
+                    background: $black-color;
+                }
+            }
+        }
+        .client-thumbnails {
+            .next-arrow, .prev-arrow {
+                color: $white-color;
+                border-color: $white-color;
+    
+                &:hover {
+                    border-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .app-image {
+        .circle-img {
+            opacity: .15;
+        }
+    }
+
+    .money-transfer-form {
+        background-color: $black-color;
+        
+        &::before {
+            background: $black-color;
+        }
+        &::after {
+            background: $black-color;
+        }
+        form {
+            .form-group {
+                .nice-select {
+                    background-color: #242435;
+                    
+                    .list {
+                        background-color: #242435;
+                        
+                        .option {
+                            color: $white-color;
+
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .currency-info {
+                span {
+                    color: $white-color;
+    
+                    strong {
+                        color: $white-color;
+                    }
+                }
+            }
+            .money-transfer-info {
+                color: $white-color;
+    
+                strong {
+                    color: $white-color;
+                }
+            }
+            .terms-info {    
+                p {    
+                    a {
+                        color: $white-color;
+        
+                        &:hover {
+                            color: $main-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .single-how-it-works {
+        background-color: $black-color;
+    }
+
+    .single-testimonials-box {
+        box-shadow: 5px 5px #3b3b4b;
+        border-color: #3b3b4b;
+    
+        p {
+            color: $white-color;
+        }
+        h3 {
+            color: $white-color;
+            
+            span {
+                color: $white-color;
+            }
+        }
+    }
+
+    .features-box {
+        background-color: $black-color;
+    }
+
+    .payment-features-area {
+        &::before {
+            background-color: $black-color;
+        }
+    }
+    
+    .single-blog-post {
+        background: $black-color;
+
+        .blog-post-content {
+            span {
+                color: $white-color;
+                
+                a {
+                    color: $white-color;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        &:hover {
+            background: $black-color;
+        }
+    }
+
+    .banner-section {
+        background: $black-color;
+    }
+
+    .page-title-section {
+        background: $black-color;
+    }
+    .page-title-text {
+        ul {
+            li {
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $optional-color;
+                    }
+                }
+                &::before {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .single-pricing-box {
+        background-color: $black-color;
+    
+        .price {
+            color: $white-color;
+        }
+        .pricing-features {
+            li {
+                color: $white-color;
+            }
+        }
+    }
+
+    .login-content {
+        .login-form {
+            .logo {
+                &.black-logo {
+                    display: none;
+                }
+                &.white-logo {
+                    display: inline-block;
+                }
+            }
+            form {
+                .form-control {
+                    background-color: $black-color;
+                    box-shadow: unset !important;
+                    color: $white-color;
+
+                    &::placeholder {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .signup-content {
+        .signup-form {
+            .logo {
+                &.black-logo {
+                    display: none;
+                }
+                &.white-logo {
+                    display: inline-block;
+                }
+            }
+            form {
+                .form-control {
+                    background-color: $black-color;
+                    box-shadow: unset !important;
+                    color: $white-color;
+
+                    &::placeholder {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .faq-accordion {
+        .accordion {
+            .accordion-item {
+                background: $black-color;
+            }
+            .accordion-title {
+                color: $white-color;
+                
+                &.active {
+                    border-bottom-color: #2f5a7b;
+                }
+            }
+        }
+    }
+    .faq-contact-form {
+        form {
+            .form-control {
+                background-color: $black-color;
+                box-shadow: unset !important;
+            }
+        }
+    }
+
+    .pagination-area {
+        .page-numbers {
+            background: $black-color;
+            color: $white-color;
+            box-shadow: unset;
+        }
+    }
+
+    .widget-area {
+        .widget {
+            .widget-title {
+                border-bottom-color: #414155;
+            }
+        }
+        .widget_search {
+            background-color: $black-color;
+    
+            form {
+                .search-field {
+                    border-color: #284a65;
+                    color: $white-color;
+    
+                    &::placeholder {
+                        color: $white-color;
+                    }
+                    &:focus {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .widget_luvion_posts_thumb {
+            .item {
+                .info {
+                    time {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .tagcloud {
+            a {
+                border-color: #414155;
+
+                &:hover, &:focus {
+                    border-color: $main-color;
+                }
+            }
+        }
+    }
+
+    .blog-details {
+        .article-content {
+            .entry-meta {
+                ul {
+                    li {
+                        color: $white-color;
+                        
+                        span {
+                            color: $white-color;
+                        }
+                        a {
+                            color: $white-color;
+        
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .article-features-list {
+                li {
+                    color: $white-color;
+                }
+            }
+        }
+        .article-footer {
+            border: {
+                top-color: #3d3d4d;
+                bottom-color: #3d3d4d;
+            }
+            .article-tags {
+                span {
+                    color: $white-color;
+                }
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    blockquote, .blockquote {
+        background-color: $black-color;
+        color: $white-color;
+
+        p {
+            color: $white-color;
+        }
+        &::before {
+            opacity: .10;
+        }
+    }
+    .comments-area {
+        .comment-body {
+            color: $white-color;
+            border-bottom-color: #3d3d4d;
+    
+            .reply {
+                a {
+                    border-color: #3d3d4d;
+                    color: $white-color;
+
+                    &:hover {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+        .comment-metadata {
+            color: $white-color;
+            
+            a {
+                color: $white-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+        .comment-respond {
+            label {
+                color: $white-color;
+            }
+            input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
+                background-color: $black-color;
+                border-color: #3d3d4d;
+                color: $white-color;
+    
+                &::placeholder {
+                    color: $white-color;
+                }
+                &:focus {
+                    border-color: $main-color;
+                }
+            }
+            .comment-form-cookies-consent {
+                label {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .contact-form {
+        form {
+            .form-control {
+                background-color: $black-color;
+                box-shadow: unset !important;
+                color: $white-color;
+
+                &::placeholder {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    .contact-info {
+        ul {
+            li {
+                color: $white-color;
+    
+                span {
+                    color: $white-color;
+                }
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    .bg-map {
+        opacity: .10;
+    }
+
+    .footer-area {
+        background-color: #000000;
+    }
+    .single-footer-widget {
+        .logo {
+            .black-logo {
+                display: none;
+            }
+            .white-logo {
+                display: inline-block;
+            }
+        }
+        .list {
+            li {
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        .footer-contact-info {
+            li {
+                color: $white-color;
+
+                a {
+                    color: $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+        .social-links {
+            li {
+                a {
+                    border-color: #353535;
+    
+                    &:hover {
+                        border-color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+    .copyright-area {
+        border-top-color: #292121;
+        
+        p {
+            a {
+                color: $white-color;
+    
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+    .navbar-area {
+        &.navbar-with-position-relative {
+            background-color: $black-color;
+    
+            .luvion-nav {
+                .navbar {
+                    .navbar-brand {
+                        img {
+                            &:nth-child(1) {
+                                display: none;
+                            }
+                            &:nth-child(2) {
+                                display: block;
+                            }
+                        }
+                    }
+                    .navbar-nav {
+                        .nav-item {
+                            a {
+                                color: $white-color;
+                                
+                                &:hover, &:focus, &.active {
+                                    color: $main-color;
+                                }
+                            }
+                            &:hover, &.active {
+                                a {
+                                    color: $main-color;
+                                }
+                            }
+                            .dropdown-menu {
+                                li {
+                                    a {
+                                        color: $white-color;
+                                        
+                                        &:hover, &:focus, &.active {
+                                            color: $main-color;
+                                        }
+                                    }
+                                    .dropdown-menu {
+                                        li {
+                                            a {
+                                                color: $white-color;
+                                                
+                                                &:hover, &:focus, &.active {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                            .dropdown-menu {
+                                                li {
+                                                    a {
+                                                        color: $white-color;
+                    
+                                                        &:hover, &:focus, &.active {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                    .dropdown-menu {
+                                                        li {
+                                                            a {
+                                                                color: $white-color;
+                            
+                                                                &:hover, &:focus, &.active {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                            .dropdown-menu {
+                                                                li {
+                                                                    a {
+                                                                        color: $white-color;
+                                    
+                                                                        &:hover, &:focus, &.active {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                    .dropdown-menu {
+                                                                        li {
+                                                                            a {
+                                                                                color: $white-color;
+                                            
+                                                                                &:hover, &:focus, &.active {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                            .dropdown-menu {
+                                                                                li {
+                                                                                    a {
+                                                                                        color: $white-color;
+                                                    
+                                                                                        &:hover, &:focus, &.active {
+                                                                                            color: $main-color;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                            &.active {
+                                                                                a {
+                                                                                    color: $main-color;
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    &.active {
+                                                                        a {
+                                                                            color: $main-color;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                            &.active {
+                                                                a {
+                                                                    color: $main-color;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                    &.active {
+                                                        a {
+                                                            color: $main-color;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.active {
+                                                a {
+                                                    color: $main-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    &.active {
+                                        a {
+                                            color: $main-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .others-options {
+                        .login-btn {
+                            color: $white-color;
+                            
+                            i {
+                                margin-right: 2px;
+                                color: #eae563;
+                            }
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            
+            &.is-sticky {
+                .navbar-brand {
+                    img {
+                        &:nth-child(1) {
+                            display: none;
+                        }
+                        &:nth-child(2) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-banner-woman-area {
+        background-color: #0e0e0e;
+        .banner-woman-list {
+            li {
+                color: $white-color;
+            }
+        }
+    }
+    .main-banner-woman-content {
+        p {
+            color: $white-color;
+        }
+        .btn-list {
+            li {
+                .discover-more-btn {
+                    color: $white-color;
+                    border-bottom: 1px solid $white-color;
+    
+                    &:hover {
+                        color: $main-color;
+                        border-bottom: 1px solid $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .single-partner-card {
+        a {
+            &:nth-child(1) {
+                display: none;
+            }
+            &:nth-child(2) {
+                display: block;
+            }
+        }
+    }
+
+    .flexibility-content {
+        .list {
+            li {
+                background-color: $black-color;
+                color: $white-color;
+            }
+        }
+    }
+
+    .funfacts-style-area {
+        &::before {
+            background: #242435;
+        }
+        &::after {
+            background: #242435;
+        }
+    }
+    .funfacts-style-inner-box {
+        .contact-cta-box {
+            border: 1px solid rgba(255, 255, 255, 0.29) !important;
+        }
+    }
+
+    .security-services-area {
+        background-color: #242435;
+        border-bottom: 1px solid $black-color;
+    }
+    .security-services-card {
+        &:hover {
+            background-color: $black-color;
+        }
+    }
+
+    .awesome-features-content  {
+        .list {
+            li {
+                background-color: $black-color;
+                color: $white-color;
+            }
+        }
+    }
+
+    .single-blog-card {
+        .content {
+            background-color: #242435;
+        }
+    }
+
+    /* Start "Currency Transfer Provider Demo" "CSS" */
+
+    .currency-transfer-provider-with-background-color {
+        background-color: #242435;
+    }
+
+    .section-title {
+        &.ctp-title {
+            h2 {
+                color: $white-color;
+            }
+        }
+    }
+
+    .currency-transfer-provider-navbar {
+        &.is-sticky {
+            .luvion-nav {
+                .navbar {
+                    .navbar-list {
+                        ul {
+                            li {
+                                a {
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+                    .others-options {
+                        .options-item {
+                            .language-option {
+                                button {
+                                    color: $white-color;
+
+                                    .globe-icon {
+                                        i {
+                                            color: $white-color;
+                                        }
+                                    }
+                                    .chevron-down-icon {
+                                        i {
+                                            color: $white-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ctp-banner-form {
+        .form-content {
+            background-color: #242435;
+
+            .form-group {
+                label {
+                    border: 1px solid #242435;
+                    background-color: $black-color;
+                    color: $white-color;
+                }
+                .nice-select {
+                    border: 1px solid #242435;
+                    background-color: $black-color;
+                    color: $white-color;
+
+                    &:after {
+                        border-bottom: 2px solid $white-color;
+                        border-right: 2px solid $white-color;
+                    }
+                    .list {
+                        background-color: $black-color;
+                    }
+                }
+                .form-control {
+                    border: 1px solid #242435;
+                    background-color: $black-color;
+                    color: $white-color;
+                }
+                .amount-currency-select {
+                    .nice-select {
+                        border: none;
+                    }
+                }
+            }
+            .info {
+                p {
+                    color: $white-color;
+
+                    span {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .ctp-countries-card {
+        background-color: $black-color;
+
+        span {
+            color: $white-color;
+        }
+    }
+
+    .ctp-choose-content {
+        .choose-inner-card {
+            h4 {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-services-card {
+        background-color: $black-color;
+    }
+
+    .ctp-key-features-area {
+        background-color: $black-color;
+    }
+    .ctp-key-features-tabs {
+        .tab-content {
+            .tab-pane {
+                background-color: #242435;
+
+                .ctp-key-features-content {
+                    p {
+                        color: $white-color;
+                    }
+                    .list {
+                        li  {
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .ctp-working-people-content {
+        .working-people-inner-card {
+            h4 {
+                color: $white-color;
+            }
+            p {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-protec-card {
+        background-color: $black-color;
+
+        .content {
+            h3 {
+                color: $white-color;
+            }
+            p {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-app-area {
+        position: relative;
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-color: #000000;
+            z-index: -1;
+            opacity: .90;
+        }
+    }
+    .ctp-app-content {
+        .info {
+            span {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-reviews-box {
+        background-color: $black-color;
+
+        .rating {
+            li {
+                span {
+                    color: $white-color;
+                }
+            }
+        }
+        h4 {
+            span {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-faq-accordion {
+        .accordion-item {
+            background-color: $black-color;
+
+            .accordion-button {
+                color: $white-color;
+            }
+            .accordion-body {
+                p {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .ctp-funfacts-inner-box {
+        background-color: $black-color;
+    }
+
+    .ctp-team-card {
+        .team-content {
+            span {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-send-money-online-form {
+        .form-content {
+            background-color: #242435;
+
+            .form-group {
+                label {
+                    border: 1px solid #242435;
+                    background-color: $black-color;
+                    color: $white-color;
+                }
+                .nice-select {
+                    border: 1px solid #242435;
+                    background-color: $black-color;
+                    color: $white-color;
+
+                    &:after {
+                        border-bottom: 2px solid $white-color;
+                        border-right: 2px solid $white-color;
+                    }
+                    .list {
+                        background-color: $black-color;
+                    }
+                }
+                .form-control {
+                    border: 1px solid #242435;
+                    background-color: $black-color;
+                    color: $white-color;
+                }
+                .amount-currency-select {
+                    .nice-select {
+                        border: none;
+                    }
+                }
+            }
+            .info {
+                p {
+                    color: $white-color;
+
+                    span {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .ctp-contact-form {
+        background-color: $black-color;
+
+        .form-group {
+            label {
+                border: 1px solid $black-color;
+                background-color: #242435;
+                color: $white-color;
+            }
+            .form-control {
+                border: 1px solid $black-color;
+                background-color: #242435;
+                color: $white-color;
+
+                &::placeholder {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .ctp-contact-information {
+        .information-box {
+            background-color: $black-color;
+
+            h3 {
+                color: $white-color;
+            }
+            .contact-info {
+                li {
+                    color: $white-color;
+
+                    .info {
+                        span {
+                            color: $white-color;
+                        }
+                        a {
+                            color: $white-color;
+
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .time-info  {
+                li {
+                    span {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .ctp-currency-content {
+        .list {
+            li {
+                color: $white-color;
+            }
+        }
+    }
+
+    .ctp-world-content {
+        .world-inner-card {
+            h4 {
+                color: $white-color;
+            }
+            p {
+                color: $white-color;
+            }
+        }
+    }
+
+    /* End "Currency Transfer Provider Demo" "CSS" */
+
+    /* Start "Digital Wallet", "Online Investment Platform" & "FinTech Platform" Demo Style CSS
+    ============================================================================================*/
+
+    .digital-wallet-navbar {
+        .luvion-nav {
+            .navbar {
+                .navbar-brand {
+                    img {
+                        &:nth-child(1) {
+                            display: block;
+                        }
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dw-payment-area {
+        &::before {
+            background: #0e0e0e;
+        }
+    }
+
+    .dw-travel-card {
+        .content {
+            strong {
+                color: $white-color;
+            }
+        }
+    }
+
+    .dw-faq-area {
+        &::before {
+            background: #0e0e0e;
+        }
+    }
+    .dw-faq-accordion {
+        .accordion-item {
+            background-color: $black-color;
+
+            .accordion-button {
+                color: $white-color;
+            }
+            .accordion-body {
+                border-top: 1px solid rgb(193 193 193 / 10%);
+            }
+        }
+    }
+
+    .download-wallet-content {
+        .inner {
+            .left {
+                form {
+                    label {
+                        color: $white-color;
+                    }
+                }
+            }
+            .right {
+                span {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .dw-blog-card {
+        .content {
+            h3 {
+                a {
+                    color: $white-color;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .digital-wallet-navbar {
+        &.oip-style {
+            border-top: 1px solid #242435;
+            border-bottom: 1px solid #242435;
+
+            .luvion-nav {
+                .navbar {
+                    .others-options {
+                        .links {
+                            li {
+                                a {
+                                    color: $white-color;
+
+                                    &:hover {
+                                        color: $main-color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .oip-about-area {
+        &::before {
+            background: #0e0e0e;
+        }
+    }
+    .oip-about-content {
+        .fun-items {
+            border-top: 1px solid rgb(255 255 255 / 10%);
+
+            .item {
+                p {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .oip-make-more-items {
+        .item {
+            background-color: #242435;
+
+            .oip-make-more-content {
+                .sub {
+                    border: 1px solid #0e0e0e;
+                }
+            }
+        }
+    }
+    .oip-into-faq-accordion {
+        .accordion-item {
+            border-bottom: 1px solid rgb(255 255 255 / 10%);
+    
+            .accordion-button {
+                color: $white-color;
+                
+                &::before {
+                    color: $white-color;
+                }
+                &:not(.collapsed) {
+                    border-bottom: none;
+                    color: $white-color;
+    
+                    &::before {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .oip-into-content {
+        p {
+            strong {
+                color: $white-color;
+            }
+        }
+    }
+
+    .oip-testimonials-card {
+        .trust-pilot {
+            img {
+                filter: invert(1);
+            }
+        }
+        .info {
+            h5 {
+                color: $white-color;
+            }
+            span {
+                color: $white-color;
+            }
+        }
+    }
+
+    .oip-choose-inner {
+        &::before {
+            background: #0e0e0e;
+        }
+    }
+
+    .oip-type-list {
+        li {
+            color: $white-color;
+        }
+    }
+
+    .fin-tech-banner-area {
+        &::before {
+            background-color: #242435;
+        }
+    }
+    .fin-tech-banner-fun-left {
+        .item {
+            &:last-child {
+                h5 {
+                    color: $white-color;
+                }
+                p {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    .fin-tech-banner-fun-right {
+        .item {
+            &:last-child {
+                h5 {
+                    color: $white-color;
+                }
+                p {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+
+    .ft-partner-item {
+        img {
+            filter: invert(1);
+        }
+    }
+
+    .ft-blog-card {
+        background: #0e0e0e;
+
+        .content {
+            h3 {
+                a {
+                    color: $white-color;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .top-header-logo {
+        &.white-wrap {
+            img {
+                filter: invert(1);
+            }
+        }
+    }
+
+    .digital-wallet-navbar {
+        &.oip-style {
+            &.border-tb-black {
+                border-top: 1px solid #4a4a4a !important;
+                border-bottom: 1px solid #4a4a4a !important;
+
+                &.is-sticky {
+                    border: none !important;
+                }
+            }
+        }
+    }
+
+    .tax-filing-area {
+        &::before {
+            background: #0e0e0e;
+        }
+    }
+
+    .oip-pricing-wrap-inner {
+        &::before {
+            background: #0e0e0e;
+        }
+    }
+
+    /* End "Digital Wallet", "Online Investment Platform" & "FinTech Platform" Demo Style CSS
+    ============================================================================================*/
+
+    /* (Web Bank Platform) Dark CSS Style */
+
+    /* Colors Style */
+    $light-mustardColor: #F6D658;
+    $black-pearlColor: #061029;
+    $wild-blue-yonderColor: #8886B0;
+    $debian-redColor: #D80650;
+    $dark-blueColor: #0335BA;
+    $grey-suitColor: #BEBDD1;
+    $lavender-mistColor: #E7E7F0;
+    $platinumColor: #E0E3EA;
+    $magnoliaColor: #F4F6FC;
+    $lavender-mistColor: #E4E7F4;
+    $waterColor: #EFF3F9;
+    $white-smokeColor: #F5F5FA;
+    $porcelainColor: #F2F2F4;
+    $whiteColor: #ffffff;
+
+    .wbp-navbar {
+        .luvion-nav {
+            .navbar {
+                .navbar-brand {
+                    img {
+                        &:nth-child(1) {
+                            display: block;
+                        }
+                        &:nth-child(2) {
+                            display: none !important;
+                        }
+                    }
+                }
+                .navbar-nav {
+                    .nav-item {
+                        a {
+                            color: $white-color;
+                            
+                            &:hover, &:focus, &.active {
+                                color: $debian-redColor !important;
+                            }
+                        }
+                        &:hover, &.active {
+                            a {
+                                color: $debian-redColor;
+                            }
+                        }
+                        .dropdown-menu {
+                            li {
+                                a {
+                                    color: $white-color;
+                                    
+                                    &:hover, &:focus, &.active {
+                                        color: $debian-redColor;
+                                    }
+                                }
+                                .dropdown-menu {
+                                    li {
+                                        a {
+                                            color: $white-color;
+                                    
+                                            &:hover, &:focus, &.active {
+                                                color: $debian-redColor;
+                                            }
+                                        }
+                                        .dropdown-menu {
+                                            li {
+                                                a {
+                                                    color: $white-color;
+                                            
+                                                    &:hover, &:focus, &.active {
+                                                        color: $debian-redColor;
+                                                    }
+                                                }
+                                                .dropdown-menu {
+                                                    li {
+                                                        a {
+                                                            color: $white-color;
+                                                    
+                                                            &:hover, &:focus, &.active {
+                                                                color: $debian-redColor;
+                                                            }
+                                                        }
+                                                        .dropdown-menu {
+                                                            li {
+                                                                a {
+                                                                    color: $white-color;
+                                                            
+                                                                    &:hover, &:focus, &.active {
+                                                                        color: $debian-redColor;
+                                                                    }
+                                                                }
+                                                                .dropdown-menu {
+                                                                    li {
+                                                                        a {
+                                                                            color: $white-color;
+                                                                    
+                                                                            &:hover, &:focus, &.active {
+                                                                                color: $debian-redColor;
+                                                                            }
+                                                                        }
+                                                                        .dropdown-menu {
+                                                                            li {
+                                                                                a {
+                                                                                    color: $white-color;
+                                                                            
+                                                                                    &:hover, &:focus, &.active {
+                                                                                        color: $debian-redColor;
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                        &.active {
+                                                                            a {
+                                                                                color: $debian-redColor;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                                &.active {
+                                                                    a {
+                                                                        color: $debian-redColor;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        &.active {
+                                                            a {
+                                                                color: $debian-redColor;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                &.active {
+                                                    a {
+                                                        color: $debian-redColor;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &.active {
+                                            a {
+                                                color: $debian-redColor;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.active {
+                                    a {
+                                        color: $debian-redColor;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .luvion-responsive-nav {
+            .logo {
+                a {
+                    img {
+                        &:nth-child(1) {
+                            display: block;
+                        }
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-font-style {
+        color: $whiteColor;
+
+        .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+            color: $whiteColor;
+
+            a {
+                color: $whiteColor;
+
+                &:hover {
+                    color: $dark-blueColor;
+                }
+            }
+        }
+        p {
+            color: $whiteColor;
+        }
+    }
+
+    .wbp-partner-item {
+        img {
+            filter: invert(1);
+        }
+    }
+
+    .wbp-experience-area {
+        &::before {
+            background-color: #242435;
+        }
+    }
+
+    .wbp-benefits-inner {
+        &::before {
+            background: $black-color;
+        }
+    }
+
+    .wbp-testimonial-slides {
+        &.owl-theme {
+            .owl-nav {
+                [class*=owl-] {
+                    color: $whiteColor;
+                }
+            }
+        }
+    }
+
+    .wbp-savings-account-content {
+        .bottom {
+            span {
+                color: $whiteColor;
+            }
+            p {
+                color: $whiteColor;
+            }
+        }
+    }
+
+    .wbp-faq-accordion {
+        .accordion-item {
+            .accordion-button {
+                color: $whiteColor;
+                border: 1px solid $black-color;
+                background-color: $black-pearlColor;
+            }
+        }
+    }
+
+    .wbp-explore-card {
+        background-color: $black-pearlColor;
+    }
+
+    .wbp-savings-form {
+        .form-group {
+            .form-control {
+                background-color: $black-pearlColor;
+                border: 1px solid $black-pearlColor;
+                color: $whiteColor;
+
+                &::placeholder {
+                    color: $whiteColor;
+                }
+                &:focus {
+                    border: 1px solid $light-mustardColor;
+                    
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-rates-form {
+        .form-group {
+            .form-control {
+                background-color: $black-pearlColor;
+                border: 1px solid $black-pearlColor;
+                color: $whiteColor;
+
+                &::placeholder {
+                    color: $whiteColor;
+                }
+                &:focus {
+                    border: 1px solid $light-mustardColor;
+                    
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-overview-accordion {
+        .accordion-item {
+            .accordion-button {
+                color: $whiteColor;
+                border: 1px solid $black-color;
+                background-color: $black-pearlColor;
+            }
+        }
+    }
+
+    .wbp-pricing-card {
+        background-color: $black-pearlColor;
+
+        .price {
+            background-color: $black-color;
+        }
+        .inner {
+            .list {
+                li {
+                    span {
+                        color: $whiteColor;
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-invest-tabs {
+        .nav {
+            .nav-item {
+                .nav-link {
+                    background-color: $black-pearlColor;
+
+                    .bold {
+                        color: $whiteColor;
+                    }
+                    .regular {
+                        color: $whiteColor;
+                    }
+                }
+            }
+        }
+        .wbp-invest-content {
+            .items {
+                .item {
+                    .list {
+                        li {
+                            span {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-authentication-content {
+        .wbp-authentication-form {
+            .top {
+                .logo {
+                    &.black-logo {
+                        display: none;
+                    }
+                    &.white-logo {
+                        display: block;
+                    }
+                }
+                .connect-with-social {
+                    button {
+                        background-color: $black-pearlColor;
+                        color: $whiteColor;
+                        border: 1px solid $black-pearlColor;
+
+                        &:hover {
+                            border: 1px solid $dark-blueColor;
+                        }
+                    }
+                }
+            }
+            .middle {
+                span {
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+            }
+            .inner {
+                .form-group {
+                    .form-control {
+                        background-color: $black-pearlColor;
+                        border: 1px solid $black-pearlColor;
+                        color: $whiteColor;
+
+                        &::placeholder {
+                            color: $whiteColor;
+                        }
+                        &:focus {
+                            border: 1px solid $light-mustardColor;
+                            
+                            &::placeholder {
+                                color: transparent;
+                            }
+                        }
+                    }
+                }
+                .authentication-btn {
+                    p {
+                        color: $whiteColor;
+                    }
+                }
+                &.verification-code {
+                    .form-control {
+                        background-color: $black-pearlColor;
+                        border: 1px solid $black-pearlColor;
+                        color: $whiteColor;
+
+                        &::placeholder {
+                            color: $whiteColor;
+                        }
+                        &:focus {
+                            border: 1px solid $light-mustardColor;
+                            
+                            &::placeholder {
+                                color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-widget-area {
+        .widget_search {
+            .search-form {
+                .form-control {
+                    background-color: $black-pearlColor;
+                    border: 1px solid $black-pearlColor;
+                    color: $whiteColor;
+
+                    &::placeholder {
+                        color: $whiteColor;
+                    }
+                    &:focus {
+                        border: 1px solid $light-mustardColor;
+
+                        &::placeholder {
+                            color: transparent;
+                        }
+                    }
+                }
+                button {
+                    i {
+                        color: $whiteColor;
+
+                        &:hover {
+                            color: $debian-redColor;
+                        }
+                    }
+                }
+            }
+        }
+        .widget_categories {
+            .list {
+                li {
+                    a {
+                        background-color: #242435;
+                    }
+                    span {
+                        background-color: #242435;
+                    }
+                }
+            }
+        }
+        .widget_tag_cloud {
+            .tag-cloud {
+                a {
+                    background-color: $black-pearlColor;
+                    color: $white-color;
+                    
+                    &:hover {
+                        background-color: $dark-blueColor;
+                        color: $whiteColor;
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-blog-details-desc {
+        .content {
+            .list {
+                li {
+                    span {
+                        color: $whiteColor;
+                    }
+                }
+            }
+            .quote-box {
+                background-color: $black-pearlColor;
+
+                p {
+                    color: $whiteColor;
+                }
+            }
+            .article-social {
+                border-top: 1px solid $black-pearlColor;
+                border-bottom: 1px solid $black-pearlColor;
+
+                h5 {
+                    color: $whiteColor;
+                }
+            }
+            .reply-wrap {
+                form {
+                    .form-group {
+                        .form-control {
+                            background-color: $black-pearlColor;
+                            border: 1px solid $black-pearlColor;
+                            color: $whiteColor;
+
+                            &::placeholder {
+                                color: $whiteColor;
+                            }
+                            &:focus {
+                                border: 1px solid $light-mustardColor;
+
+                                &::placeholder {
+                                    color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .wbp-contact-info-card {
+        background-color: $black-pearlColor;
+    }
+
+    .wbp-contact-form {
+        background-color: $black-pearlColor;
+
+        .form-group {
+            .form-control {
+                background-color: $black-color;
+                border: 1px solid #0e0e0e;
+                color: $whiteColor;
+
+                &::placeholder {
+                    color: $whiteColor;
+                }
+                &:focus {
+                    border: 1px solid $light-mustardColor;
+                    
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    // Dashboard Dark CSS
+    .dash-full-bg {
+        background-color: #242435;
+    }
+    .sidebar-area {
+        background-color: $black-color;
+        border-right: 1px solid $black-color;
+
+        .logo {
+            .black-logo {
+                display: none;
+            }
+            .white-logo {
+                display: block;
+            }
+        }
+    }
+    .menu-vertical {
+        .menu-item {
+            .menu-link {
+                color: $whiteColor;
+
+                .title {
+                    color: $whiteColor;
+                }
+                &.active {
+                    .title {
+                        color: $whiteColor;
+                    }
+                }
+            }
+        }
+        .menu-sub {
+            .menu-item {
+                .menu-link {
+                    color: $whiteColor;
+                }
+            }
+        }
+    }
+
+    .dash-header-area {
+        &.bg-white {
+            background-color: $black-color !important;
+        }
+    }
+    .left-header-content {
+        ul {
+            li {
+                .src-form {
+                    .form-control {
+                        background-color: $black-pearlColor;
+                        border-color: $black-pearlColor;
+                        color: $whiteColor;
+                    }
+                }
+            }
+        }
+    }
+    .right-header-content {
+        .header-right-item {
+            .language {
+                &.dropdown {
+                    .btn-secondary {
+                        span {
+                            color: $whiteColor;
+                        }
+                        &.dropdown-toggle {
+                            &::after {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                    .dropdown-menu {
+                        background-color: $black-pearlColor;
+
+                        .title {
+                            color: $whiteColor;
+                        }
+                        .dropdown-item {
+                            &:hover {
+                                background-color: $black-color;
+                            }
+                            &:focus {
+                                background-color: $black-color;
+                            }
+                        }
+                        .language-menu {
+                            border-top: 1px dashed $black-color;
+                        }
+                    }
+                }
+            }
+            .dollar {
+                &.dropdown {
+                    .btn-secondary {
+                        span {
+                            color: $whiteColor;
+                        }
+                        &.dropdown-toggle {
+                            &::after {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                    .dropdown-menu {
+                        background: $black-pearlColor;
+
+                        .dollar-menu {
+                            border-bottom: 1px dashed $black-color;
+                            color: $whiteColor;
+
+                            &:hover, &:focus {
+                                background-color: $black-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .admin-profile {
+                .dropdown-toggle {
+                    h5 {
+                        color: $whiteColor;
+                    }
+                    &::after {
+                        color: $whiteColor;
+                    }
+                }
+                .dropdown-menu {
+                    background: $black-pearlColor !important;
+                }
+            }
+        }
+    }
+
+    .dash-table-area {
+        background-color: $black-pearlColor;
+
+        .top {
+            background-color: $black-color;
+
+            h5 {
+                color: $whiteColor;
+            }
+            i {
+                color: $whiteColor;
+            }
+        }
+        .table-inner {
+            .table {
+                thead {
+                    tr {
+                        th {
+                            color: $whiteColor;
+                            border-bottom: 1px solid $black-color;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            color: $whiteColor;
+                            border-bottom: 1px solid $black-color;
+                            
+                            &.num {
+                                b {
+                                    color: $whiteColor;
+                                }
+                            }
+                            .ri-eye-line {
+                                color: $whiteColor;
+                            }
+                            .ri-edit-line {
+                                color: $whiteColor;
+                            }
+                            .ri-delete-bin-line {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dash-statement-download {
+        .modal-content {
+            background: $black-pearlColor;
+
+            .modal-header {
+                border: none;
+                background-color: $black-color;
+
+                h3 {
+                    color: $whiteColor;
+                }
+                .btn-close {
+                    --bs-btn-close-color: $whiteColor;
+                }
+            }
+            .modal-body {
+                .form-group {
+                    label {
+                        color: $whiteColor;
+                    }
+                    .form-control {
+                        background-color: $black-color;
+                        border: 1px solid $black-color;
+                        color: $whiteColor;
+
+                        &::placeholder {
+                        color: $whiteColor;
+                        }
+                        &:focus {
+                            border: 1px solid $light-mustardColor;
+
+                            &::placeholder {
+                                color: transparent;
+                            }
+                        }
+                    }
+                }
+                .charges-info {
+                    background-color: $black-color;
+
+                    h5 {
+                        color: $whiteColor;
+                    }
+                    .list {
+                        li {
+                            span {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+                .otp-type {
+                    span {
+                        color: $whiteColor;
+                    }
+                    .form-check {
+                        .form-check-label {
+                            color: $whiteColor;
+                        }
+                    }
+                }
+                .check-box {
+                    .form-check {
+                        .form-check-label {
+                            color: $whiteColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dash-form-area {
+        .inner {
+            background-color: $black-pearlColor;
+
+            h3 {
+                background-color: $black-color;
+            }
+            .info-inner {
+                .form-group {
+                    label {
+                        color: $whiteColor;
+                    }
+                    .form-control {
+                        background: $black-color;
+                        border: 1px solid $black-color;
+                        color: $whiteColor;
+
+                        &::placeholder {
+                            color: $whiteColor;
+                        }
+                        &:focus {
+                            border: 1px solid $light-mustardColor;
+
+                            &::placeholder {
+                                color: transparent;
+                            }
+                        }
+                    }
+                    .nice-select {
+                        background: $black-color;
+                        border: 1px solid $black-color;
+                        color: $whiteColor;
+
+                        &:after {
+                            border-color: $dark-blueColor;
+                        }
+                        span {
+                            color: $whiteColor;
+                        }
+                        .list {
+                            background-color: $black-color;
+                            
+                            .option {
+                                &:hover {
+                                    color: $debian-redColor;
+                                }
+                            }
+                        }
+                    }
+                    .transfer-type {
+                        .form-check {
+                            .form-check-label {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                    .otp-type {
+                        .form-check {
+                            .form-check-label {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                    .renewal-type {
+                        .form-check {
+                            .form-check-label {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                    .check-box {
+                        .form-check {
+                            .form-check-label {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom {
+            p {
+                color: $whiteColor;
+            }
+        }
+    }
+
+    .dash-beneficiary-confirm-area {
+        .confirm-inner {
+            background-color: $black-pearlColor;
+
+            .list {
+                li {
+                    color: $whiteColor;
+                }
+            }
+        }
+    }
+
+    .dash-security-verification {
+        .modal-content {
+            background: $black-pearlColor;
+
+            .modal-header {
+                border: none;
+                background-color: $black-color;
+
+                h3 {
+                    color: $whiteColor;
+                }
+                .btn-close {
+                    --bs-btn-close-color: $whiteColor;
+                }
+            }
+            .modal-body {
+                .form-group {
+                    label {
+                        color: $whiteColor;
+                    }
+                    .form-control {
+                        background-color: $black-color;
+                        border: 1px solid $black-color;
+                        color: $whiteColor;
+
+                        &::placeholder {
+                        color: $whiteColor;
+                        }
+                        &:focus {
+                            border: 1px solid $light-mustardColor;
+
+                            &::placeholder {
+                                color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dash-cards-area {
+        background-color: $black-pearlColor;
+
+        h3 {
+            background-color: $black-color;
+        }
+    }
+
+    .dash-add-new-card {
+        .modal-content {
+            background: $black-pearlColor;
+
+            .modal-header {
+                border: none;
+                background-color: $black-color;
+
+                h3 {
+                    color: $whiteColor;
+                }
+                .btn-close {
+                    --bs-btn-close-color: $whiteColor;
+                }
+            }
+            .modal-body {
+                .form-group {
+                    label {
+                        color: $whiteColor;
+                    }
+                    .form-control {
+                        background-color: $black-color;
+                        border: 1px solid $black-color;
+                        color: $whiteColor;
+
+                        &::placeholder {
+                        color: $whiteColor;
+                        }
+                        &:focus {
+                            border: 1px solid $light-mustardColor;
+
+                            &::placeholder {
+                                color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dash-footer-area {
+        background-color: $black-pearlColor;
+    }
+
+    /* End (Web Bank Platform) Dark CSS Style */
+}
+
+// Theme Light CSS
+.theme-light {
+
+    .navbar-area {
+        &.navbar-style-two {
+            .navbar-brand {
+                &.white-logo {
+                    display: none;
+                }
+            }
+        }
+    }
+    .luvion-responsive-menu {
+        .logo {
+            &.white-logo {
+                display: none;
+            }
+        }
+    }
+
+    .login-content {
+        .login-form {
+            .logo {
+                &.white-logo {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .signup-content {
+        .signup-form {
+            .logo {
+                &.white-logo {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .single-footer-widget {
+        .logo {
+            .white-logo {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .theme-dark {
+        .luvion-responsive-nav {
+            .mean-container {
+                a {
+                    &.meanmenu-reveal {
+                        color: $white-color;
+
+                        span {
+                            background: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-area {
+            &.is-sticky {
+                .luvion-responsive-nav {
+                    .mean-container {
+                        a {
+                            &.meanmenu-reveal {
+                                color: $white-color;
+            
+                                span {
+                                    background: $white-color;
+                                }
+                            }
+                        }
+                    }
+                    .others-options {            
+                        .login-btn {
+                            color: $white-color;
+                            
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+            &.navbar-style-two {
+                .luvion-responsive-nav {
+                    .mean-container {
+                        a {
+                            &.meanmenu-reveal {
+                                color: $white-color;
+            
+                                span {
+                                    background: $white-color;
+                                }
+                            }
+                        }
+                    }
+                    .others-options {            
+                        .login-btn {
+                            color: $white-color;
+                            
+                            &:hover {
+                                color: $main-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbar-area {
+            &.navbar-with-position-relative {
+                &.is-sticky {
+                    .navbar-brand {
+                        img {
+                            &:nth-child(1) {
+                                display: none;
+                            }
+                            &:nth-child(2) {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                .luvion-responsive-nav {
+                    .logo {
+                        a {
+                            img {
+                                &:nth-child(1) {
+                                    display: none;
+                                }
+                                &:nth-child(2) {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    .others-options {
+                        .login-btn {
+                            color: $white-color;
+                        }
+                    }
+                    .mean-container {
+                        a {
+                            &.meanmenu-reveal {
+                                color: $white-color;
+    
+                                span {
+                                    background: $white-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .digital-wallet-navbar {
+            .luvion-responsive-nav {
+                .logo {
+                    a {
+                        img {
+                            &:nth-child(1) {
+                                display: block;
+                            }
+                            &:nth-child(2) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
